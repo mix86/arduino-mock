@@ -10,3 +10,4 @@
 #include "SPI.cc"
 
 #include "IRremote.cc"
+#include "MString.cc"
