@@ -6,6 +6,7 @@
 
 #include <stdint.h>
 #include "MString.h"
+#include "Serial.h"
 
 #ifdef __cplusplus
 extern "C" {

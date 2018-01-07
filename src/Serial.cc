@@ -185,6 +185,16 @@ size_t Serial_::println(void) {
   return gSerialMock->println();
 }
 
+size_t Serial_::print(const String s) {
+  assert (gSerialMock != NULL);
+  return gSerialMock->println(s);
+}
+
+size_t Serial_::println(const String s) {
+  assert (gSerialMock != NULL);
+  return gSerialMock->println(s);
+}
+
 size_t Serial_::write(uint8_t val) {
   assert (gSerialMock != NULL);
   return gSerialMock->write(val);
@@ -203,6 +213,11 @@ size_t Serial_::write(const uint8_t *buffer, size_t size) {
 uint8_t Serial_::begin(uint32_t port) {
   assert (gSerialMock != NULL);
   return gSerialMock->begin(port);
+}
+
+void Serial_::end() {
+  assert (gSerialMock != NULL);
+  return gSerialMock->end();
 }
 
 void Serial_::flush() {
