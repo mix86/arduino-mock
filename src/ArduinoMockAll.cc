@@ -11,3 +11,4 @@
 
 #include "IRremote.cc"
 #include "MString.cc"
+#include "SPIFlash.cc"
