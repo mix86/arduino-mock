@@ -61,3 +61,10 @@ char MString::charAt(int p) {
 std::string MString::str() const {
   return _str;
 }
+
+void MString::toCharArray(char carr[], uint8_t count) const {
+  for (int i = 0; i < count; ++i) {
+    carr[i] = _str[i];
+  }
+}
+

@@ -7,6 +7,7 @@
 #include <stdint.h>
 #include "MString.h"
 #include "Serial.h"
+#include "DateTime.h"
 
 #ifdef __cplusplus
 extern "C" {

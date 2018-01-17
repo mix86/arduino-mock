@@ -20,6 +20,7 @@ class MString {
   char charAt(int p);
   unsigned int length();
   std::string str() const;
+  void toCharArray(char carr[], uint8_t count) const;
  private:
   std::string _str;
 };
