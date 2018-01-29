@@ -13,3 +13,4 @@
 #include "MString.cc"
 #include "SPIFlash.cc"
 #include "DateTime.cc"
+#include "RTClib.cc"
