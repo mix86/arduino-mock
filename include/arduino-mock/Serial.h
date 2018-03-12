@@ -6,6 +6,7 @@
 
 #include <stdint.h>
 #include <gmock/gmock.h>
+#include "MString.h"
 
 #define DEC 10
 #define HEX 16
