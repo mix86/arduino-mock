@@ -1,6 +1,6 @@
 #include <string>
 #include <iostream>
-#include "MString.h"
+#include "arduino-mock/MString.h"
 
 MString::MString() {
   std::string empty_str = "";
