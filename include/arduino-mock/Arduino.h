@@ -43,6 +43,8 @@ extern "C" {
 #define FALLING 2
 #define RISING 3
 
+#define A0 14
+
 typedef uint8_t boolean;
 typedef uint8_t byte;
 
