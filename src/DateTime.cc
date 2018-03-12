@@ -1,4 +1,4 @@
-#include "DateTime.h"
+#include "arduino-mock/DateTime.h"
 
 DateTime::DateTime() {
 }
@@ -22,4 +22,8 @@ bool DateTime::operator==(const DateTime other) const {
           Hour == other.Hour &&
           Minute == other.Minute &&
           Second == other.Second);
+}
+
+uint32_t DateTime::unixtime() {
+  return 1520876026;
 }

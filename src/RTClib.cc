@@ -5,6 +5,13 @@ DS1307::DS1307() {}
 void DS1307::adjust(const DateTime& dt) {
 }
 
+void DS1307::begin() {
+}
+
+DateTime DS1307::now() {
+  return DateTime();
+}
+
 static DS1307Mock* p_DS1307Mock = NULL;
 
 DS1307Mock* DS1307MockInstance() {

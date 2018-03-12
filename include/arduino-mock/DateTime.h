@@ -1,6 +1,8 @@
 #ifndef DATETIME_H
 #define DATETIME_H
 
+#include <cstdint>
+
 class DateTime
 {
 public:
@@ -15,6 +17,7 @@ public:
   uint8_t DayofWeek;
   uint8_t Month;
   uint16_t Year;
+  uint32_t unixtime();
 };
 
 #endif

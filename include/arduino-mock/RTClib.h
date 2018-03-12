@@ -1,5 +1,6 @@
 #include <stdint.h>
 #include <gmock/gmock.h>
+#include "DateTime.h"
 
 #ifndef RTCLIB_H
 #define RTCLIB_H
@@ -8,6 +9,8 @@ class DS1307
 {
  public:
   DS1307();
+  virtual void begin();
+  DateTime now();
   virtual void adjust(const DateTime& dt);
 };
 
