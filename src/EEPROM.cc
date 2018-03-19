@@ -28,5 +28,10 @@ void EEPROM_::write(int a, uint8_t b) {
   p_EEPROMMock->write(a, b);
 }
 
+void EEPROM_::update(int a, uint8_t b) {
+  assert (p_EEPROMMock != NULL);
+  p_EEPROMMock->update(a, b);
+}
+
 // Preinstantiate Objects
 EEPROM_ EEPROM;
