@@ -1,4 +1,5 @@
 // Copyright 2015 http://switchdevice.com
+#include "avr/wdt.cc"
 
 #include "Arduino.cc"
 #include "EEPROM.cc"

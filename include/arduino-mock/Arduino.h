@@ -81,6 +81,14 @@ void loop(void);
 #define UNUSED(expr) do { (void)(expr); } while (0)
 #define F(x) (x)
 
+#define FLASHEND 32767
+
+//int MCUSR;
+//int MCUSR = 0;
+extern int MCUSR;
+
+void noInterrupts();
+
 class ArduinoMock {
   private:
     unsigned long  currentMillis;

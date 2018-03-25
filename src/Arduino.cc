@@ -91,3 +91,7 @@ void attachInterrupt(uint8_t, void (*)(void), int mode) {
 }
 
 void detachInterrupt(uint8_t) {}
+
+void noInterrupts() {}
+
+int MCUSR = 0;
