@@ -48,6 +48,8 @@ extern "C" {
 typedef uint8_t boolean;
 typedef uint8_t byte;
 
+int32_t abs(int32_t);
+
 void init(void);
 
 void pinMode(uint8_t, uint8_t);

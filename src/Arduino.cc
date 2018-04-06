@@ -95,3 +95,10 @@ void detachInterrupt(uint8_t) {}
 void noInterrupts() {}
 
 int MCUSR = 0;
+
+int32_t abs(int32_t x) {
+  if ((x)>0)
+    x;
+  else
+    -x;
+};
