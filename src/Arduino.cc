@@ -98,7 +98,7 @@ int MCUSR = 0;
 
 int32_t abs(int32_t x) {
   if ((x)>0)
-    x;
+    return x;
   else
-    -x;
-};
+    return -x;
+}
